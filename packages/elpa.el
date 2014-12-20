@@ -11,12 +11,7 @@
 (package-initialize)
 
 (defvar prelude-packages
-  '(ack-and-a-half auctex caml clojure-mode coffee-mode crosshairs deft expand-region feature-mode
-                   gist groovy-mode haml-mode haskell-mode inf-ruby
-                   magit magithub markdown-mode paredit projectile python
-                   sass-mode rainbow-mode scss-mode solarized-theme
-                   volatile-highlights yaml-mode yari scala-mode
-		   go-mode rust-mode)
+  '(gist haskell-mode inf-ruby magit markdown-mode paredit cider)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()
